@@ -1,0 +1,43 @@
+h2, h3
+{
+    text-align: center;
+}
+.tram
+{
+text-align: center;
+height: 100px;
+margin-left: 2%;
+margin-top: 22%;
+}
+.bus
+{
+text-align: center;
+}
+.velo
+{
+text-align: center;
+}
+.trotinette
+{
+text-align: center;
+}
+.imagetram
+{
+    margin-top: -20%;
+    margin-left: 2%;
+}
+.imagebus
+{
+    margin-top: -21%;
+    margin-left: 68%;
+}
+.imagevelo
+{
+    margin-top: 7%;
+    margin-left: 2%;
+}
+.imagetrotinette
+{
+    margin-top: -20%;
+    margin-left: -50%;
+}
