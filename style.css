@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'K2D', sans-serif;
 }
 .header {
     background-color: rgb(237, 237, 237);
@@ -47,40 +47,38 @@ main {
     background-color: rgb(237, 237, 237);
 }
 .haut {
-    display: grid;
-    grid-template-columns: 45% 5% 40%;
-    grid-template-rows:  50vh 4%;
-    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 160px;
+    background-color: rgb(128, 195, 147);
+    text-align: center;
+    width: 1200px;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
 }
 
 .texte0 {
-    grid-column: 1;
-    background: rgb(128, 195, 147);
-    padding: 40px;
-    width: 600px;
-    height: 83vh;
-    font-size: 42px;
-    font-weight: 600;
+    font-weight: 700;
+    font-size: 40px;
 }
 
+.texte01 {
+    font-weight: 600;
+    font-size: 34px;
+}
+
+.texte02 {
+    font-size: 30px;
+}
 .image0 {
-    grid-column: 3;
-    grid-row: 1;
-    width: 600px;
+    margin-top: 40px;
+    width: 1200px;
+    margin-left: 160px;
 }
 
 .texte4 {
-    grid-column: 3;
-    grid-row: 3;
-    background: rgb(128, 195, 147);
-    padding: 40px;
-    width: 600px;
-    height: 30vh;
-    font-size: 27px;
-}
-
-.texte4 u {
-    font-weight: 600;
+    
 }
 
 .main {
