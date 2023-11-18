@@ -1,0 +1,183 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'K2D', sans-serif;
+}
+.header {
+    background-color: rgb(237, 237, 237);
+    height: 14vh;
+}
+.navbar {
+
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 14vh;
+    padding: 20px 100px;
+    background: rgb(22, 82, 39) ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 150px;
+    z-index: 3;
+    
+}
+.logo img {
+    width: 250px;
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+    
+}
+.nav-links a {
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    margin-left: 70px;
+    font-weight: 800;
+    background: linear-gradient(to top, white 0%, white 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+    transition: background-size .5s;
+}
+
+.navbar a:hover {
+    background-size: 100% 100%;
+}
+.haut {
+    background-image: url(assets/velovsae.jpg);
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+}
+.texte1 {
+    margin-top: 20px;
+    width: 50%;
+    color: white;
+    text-align: center;
+    text-shadow: 0px 4px 4px black;
+}
+.titre {
+    font-size: 50px;
+}
+.petit {
+    margin-top: 20px;
+    font-size: 45px;
+}
+.petit p {
+    margin-bottom: 35px;
+}
+.icone {
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.icone img {
+    width: 17vw;
+    background-color: white;
+    border: 5px solid rgb(22, 82, 39);
+    border-radius: 5px;
+    transition: 0.4s;
+}
+.icone img:hover {
+    width: 20vw;
+    transition: 0.4s;
+}
+.partie1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    justify-content: center;
+}
+.gauche{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+}
+.gauche p {
+    width: 17vw;
+}
+.gauche img {
+    width: 17vw;
+    height: 17vw;
+}
+.text {
+    background: rgb(128, 195, 147);
+}
+.gauche h3 {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+.gauche li {
+    margin-left: 50px;
+    padding-bottom: 30px;
+}
+.droite {
+    width: 34vw;
+    text-align: center;
+    background-color: rgb(204,203,203);
+    padding-top: 30px;
+}
+.droite a {
+    color: black;
+    font-size: 35px;
+}
+.droite p {
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 20px;
+    font-size: 26px;
+}
+
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(to top, rgb(22, 82, 39), rgb(237,237,237));
+    height: 20vh;
+}
+
+.retrouvez {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 150px;
+    margin-right: 100px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.logo2 {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.logo3 img{
+    width: 40px;
+    text-align: right;
+    margin-right: 23px;
+    
+}
+
+.logo3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-right: 120px;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+}
