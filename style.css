@@ -72,6 +72,7 @@ main {
 
 .texte02 {
     font-size: 30px;
+    margin-top: 35px;
 }
 .image0 {
     margin-top: 40px;
@@ -128,7 +129,9 @@ main {
     
 }
 .textevert {
+    width: 350px;
     padding-top: 10px;
+    padding-left: 50px;
     color: rgb(22, 82, 39);
     text-align: center;
     font-size: 25px;
@@ -138,6 +141,13 @@ main {
 .textenoir {
     padding-left: 50px;
     padding-right: 5px;
+}
+.velov {
+    width: 280px;
+    padding-left: 105px;
+}
+.ul2 {
+    padding-top: 20px;
 }
 .footer {
     bottom: 0;
