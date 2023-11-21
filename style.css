@@ -54,7 +54,7 @@ main {
     margin-left: 160px;
     background-color: rgb(128, 195, 147);
     text-align: center;
-    width: 1200px;
+    width: 80%;
     padding: 30px;
     justify-content: center;
     align-items: center;
@@ -80,45 +80,40 @@ main {
     margin-left: 160px;
 }
 
-.main {
+.item {
     margin-top: 60px;
     display: flex;
     padding: 20px;
-    height: 80vh;
+    
 }
-.main img {
+.item img {
     width: 475px;
     height: 250px;
     z-index: 0;
     margin-left: 15px;
 }
-
-.devant2 {
-    z-index: 1;   
+.textes {
     display: flex;
-    flex-direction: row;
-    position: absolute;
-    justify-content: center;
-    margin-top: 50px;
+    margin-top: -220px;
+    margin-left: 20px;
+    padding-bottom: 50px;
 }
 .texte {
     box-shadow: 0px 1px 5px 0px #0000008c;
     background: white;
     width: 400px;
+    margin-top: 200px;
 }
 .texte1 {
-    grid-column: 1;
     margin-left: 5px;
     margin-top: 150px;
     margin-left: 52px;
 }
 .texte2 {
-    grid-column: 2;
     margin-left: 91px;
     margin-top: 150px;
 }
 .texte3 {
-    grid-column: 3;
     margin-left: 91px;
     margin-top: 150px;
 }
