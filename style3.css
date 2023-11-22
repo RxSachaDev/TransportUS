@@ -119,7 +119,7 @@ main {
     flex-direction: column;
 }
 .map img {
-    width: 910px;
+    width: 58vw;
     padding-right: 30px;
     padding-bottom: 30px ;
 }
@@ -136,10 +136,13 @@ form {
 form input {
     height: 70px;
     font-size: 30px;
+    padding-left: 10px;
 }
 .message {
     height: 175px;
     padding-bottom: 130px;
+    font-size: 30px;
+    padding-left: 10px;
 }
 button {
     height: 82px;
@@ -149,8 +152,8 @@ button {
     text-decoration: none;
     font-size: 32px;
     cursor: pointer;
-
 }
+
 .footer {
     bottom: 0;
     width: 100%;

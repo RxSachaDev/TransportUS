@@ -114,6 +114,8 @@ main {
 }
 .text {
     background: rgb(128, 195, 147);
+    width: 17vw;
+    height: 17vw;
 }
 .gauche h3 {
     text-align: center;
