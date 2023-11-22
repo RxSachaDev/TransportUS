@@ -234,6 +234,72 @@ main {
 .item img {
     width: 40vw;
 }
+.partie4 {
+    margin-top: 50px;
+    background: url(assets/itembus.png) no-repeat;
+    background-size: 120vh;
+    background-position-x: 400px;
+    background-position-y: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.texte4 {
+    height: 68vh;
+    width: 34vw;
+    background-color: rgb(204,203,203);
+    margin-top: 520px;
+    margin-right: 200px;
+    padding-top: 25px;
+}
+.titre4 a {
+    display: block;
+    text-align: center;
+    font-size: 35px;
+    color: black;
+}
+.petit4 {
+    font-size: 26px;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 20px;
+    line-height: 40px;
+}
+.partie5 {
+    margin-top: 50px;
+    height: 140vh;
+    background: url(assets/forme.png) no-repeat;
+    background-size: 180vh;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table {
+    text-align: center;
+    border-collapse: collapse;
+    height: 90vh;
+    width: 70vw;
+}
+.tarifs {
+    background-color: rgb(22, 82, 39);
+    font-size: 50px;
+    padding: 10px;
+    color: white;
+    text-decoration: underline;
+}
+.grostitres th {
+    font-size: 35px;
+}
+.petittitre {
+    font-size: 30px;
+}
+td ,th {
+    background-color: white;
+    padding: 25px;
+    border: solid black;
+}
 .footer {
     bottom: 0;
     width: 100%;
