@@ -5,27 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=K2D&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Accueil</title>
 </head>
 <body>
     <header class="header">
-        <nav class="navbar">
-        <a class="logo" href="index.html"><img src="assets/logo.png" alt="Logo"></a>
-        <div class="nav-links">
-            <a href="index.html">Accueil</a>
-            <a href="déplacement_doux.html">Déplacement doux</a>
-            <a href="contact.html">Contact</a>
-        </div>
+       
+        <nav >
+            <div class="navbar-computer">
+                <a class="logo" href="index.html"><img src="assets/logo.png" alt="Logo"></a>
+                <div class="nav-links">
+                    <a href="index.html">Accueil</a>
+                    <a href="déplacement_doux.html">Déplacement doux</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div> 
+            
+            <div class="navbar-mobile">
+                <a class="logo" href="index.html"><img src="assets/logo.png" alt="Logo"></a>
+                <input type="checkbox" id="checknav">
+                <label for="checknav" class="menu-deroulant">
+                    <i class='bx bx-menu' id="open"></i>
+                    <i class='bx bx-x' id="close"></i>
+                </label>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="déplacement_doux.html">Déplacement doux</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+            </div>     
         </nav>
     </header>
     <main>
-        <div class="haut">
-            <p class="texte0">Bienvenue</p>
-            <p class="texte01">Sur votre site spécialisé dans les déplacements doux.</p>
-            <p class="texte02">Pour ceux qui ne connaissent pas le terme  de “déplacement doux”,il correspond à  un moyen de se déplacer tout en respectant l’environnement .</p>    
+        <div class="container">
+            <div class="haut">
+                <p class="texte0">Bienvenue</p>
+                <p class="texte01">Sur votre site spécialisé dans les déplacements doux.</p>
+                <p class="texte02">Pour ceux qui ne connaissent pas le terme  de “déplacement doux”,il correspond à  un moyen de se déplacer tout en respectant l’environnement .</p>    
             </div>
-        <div class="imagehaut">
-            <img class="image0" src="assets/fondimage.png" alt="étudiants">
+            <div class="imagehaut">
+                <img class="image0" src="assets/fondimage.png" alt="étudiants">
+            </div>
         </div>    
         <div class="item">
             <div class="image 1">
