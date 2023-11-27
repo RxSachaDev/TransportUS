@@ -377,7 +377,7 @@ button {
         display: flex;
         flex-direction: column;
         gap: 10px;
-        padding-bottom: 50px;
+        padding-bottom: 100px;
     }
     form input {
         height: 70px;
@@ -401,7 +401,6 @@ button {
     }
     
     .footer {
-        margin-top: 80px;
         bottom: 0;
         height: 100%;
         width: 100%;
