@@ -8,7 +8,8 @@
     background-color: rgb(237, 237, 237);
     height: 17vh;
 }
-.navbar {
+
+.navbar-computer {
 
     position: fixed; 
     top: 0;
@@ -24,11 +25,15 @@
     z-index: 3;
     
 }
+.navbar-mobile {
+    display: none;
+}
+
+
 .logo img {
     width: 250px;
     color: white;
     text-decoration: none;
-    margin-left: 50px;
     
 }
 .nav-links a {
@@ -41,13 +46,14 @@
     transition: background-size .5s;
 }
 
-.navbar a:hover {
+.navbar-computer a:hover {
     background-size: 100% 100%;
 }
 main {
     display: flex;
     flex-direction: row;
     background-color: rgb(237, 237, 237);
+    padding-top: 17vh;
 }
 
 .gauche {

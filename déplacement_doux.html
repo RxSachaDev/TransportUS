@@ -3,21 +3,41 @@
 <head>
     <link href="https://fonts.googleapis.com/css2?family=K2D&display=swap" rel="stylesheet">        
     <link rel="stylesheet" href="style2.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Déplacement doux</title>
 </head>
 <body>
-    <header class="header">
-        <nav class="navbar">
-        <a class="logo" href="index.html"><img src="assets/logo.png" alt="Logo"></a>
-        <div class="nav-links">
-            <a href="index.html">Accueil</a>
-            <a href="déplacement_doux.html">Déplacement doux</a>
-            <a href="contact.html">Contact</a>
-        </div>
-        </nav>
-    </header>
+ <header>      
+    <nav >
+        <div class="navbar-computer">
+            <a class="logo" href="index.html"><img src="assets/logo.png" alt="Logo"></a>
+            <div class="nav-links">
+                <a href="index.html">Accueil</a>
+                <a href="déplacement_doux.html">Déplacement doux</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div> 
+        
+        <div class="navbar-mobile">
+            <a class="logo" href="index.html"><img src="assets/logo.png" alt="Logo"></a>
+            <input type="checkbox" id="checknav">
+            <label for="checknav" class="menu-deroulant">
+                <i class='bx bx-menu' id="open"></i>
+                <i class='bx bx-x' id="close"></i>
+            </label>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="déplacement_doux.html">Déplacement doux</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            
+        </div>     
+    </nav>
+</header>
     <main>
         <div class="haut">
             <div class="texte1">
@@ -65,6 +85,9 @@
                 </div>
             </div>
             <div class="partie2" id="velov">
+                <div class="temp">
+                    <img src="assets/itemvelov.png" alt="Velov">
+                </div>
                     <div class="itemvert">
                         <p>Pour plus d'informations</p>
                         <a href="contact.html">Contactez-nous</a>
@@ -94,6 +117,9 @@
                 </div>
             </div>
             <div class="partie4" id="bus">
+                <div class="temp">
+                    <img src="assets/itembus.png" alt="Velov">
+                </div>
                 <div class="texte4">
                     <div class="titre4">
                         <a href="#">Bus</a>
@@ -117,27 +143,27 @@
                         </tr>
                         <tr>
                             <td class="petittitre">Tramway (TCL)</td>
-                            <td>2,00 €</td>
-                            <td>25 € (étudiant) 69,40 € (26-64ans)</td>
-                            <td>250 € (18-25ans)</td>
+                            <td class="proposition">2,00 €</td>
+                            <td class="proposition">25 € (étudiant) 69,40 € (26-64ans)</td>
+                            <td class="proposition">250 € (18-25ans)</td>
                         </tr>
                         <tr>
                             <td class="petittitre">Vélo'v</td>
-                            <td>1,80 €</td>
-                            <td>55,80 € (1 usage par jour)</td>
-                            <td>15,00 €</td>
+                            <td class="proposition">1,80 €</td>
+                            <td class="proposition">55,80 € (1 usage par jour)</td>
+                            <td class="proposition">15,00 €</td>
                         </tr>
                         <tr>
-                            <td class="petittitre">Trttinettes</td>
-                            <td>1 € puis 0,25 € la minute</td>
-                            <td>108,5 € (1 usage de 10 minutes par jour)</td>
-                            <td>1302 € (12*mensuel)</td>
+                            <td class="petittitre">Trottinettes</td>
+                            <td class="proposition">1 € puis 0,25 € la minute</td>
+                            <td class="proposition">108,5 € (1 usage de 10 minutes par jour)</td>
+                            <td class="proposition">1302 € (12*mensuel)</td>
                         </tr>
                         <tr>
                             <td class="petittitre">Bus (TCL)</td>
-                            <td>2,00 €</td>
-                            <td>25 € (étudiant) 69,40 € (26-64ans)</td>
-                            <td>250 € (18-25ans)</td>
+                            <td class="proposition">2,00 €</td>
+                            <td class="proposition">25 € (étudiant) 69,40 € (26-64ans)</td>
+                            <td class="proposition">250 € (18-25ans)</td>
                         </tr>
                     </table>
                 </div>

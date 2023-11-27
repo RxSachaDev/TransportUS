@@ -161,7 +161,7 @@
         bottom: 0;
         width: 100%;
         background: linear-gradient(to top, rgb(22, 82, 39), rgb(237,237,237));
-        height: 20vh;
+        
     }
     
     .retrouvez {
@@ -195,6 +195,7 @@
     
     .copyright {
         text-align: center;
+        padding-bottom: 5px;
     }
     
 }
@@ -240,7 +241,8 @@
     }
 
     .logo img {
-        width: 300px;
+        width: 50vw;
+        height: 12vh;
         color: white;
         text-decoration: none;
         padding-left: 70px;
@@ -253,12 +255,9 @@
         margin-left: 10%;
         top: 20vh;
         text-align: center;
-        height: 70vh;
-        top: 20vh;
+        padding-right: 70px;
         background-color: rgb(22, 82, 39);
-        padding: 20px;
         display: none;
-        backdrop-filter: blur(50px);
     }
     .nav-links ul {
         display: flex;
@@ -391,7 +390,7 @@
         bottom: 0;
         width: 100%;
         background: linear-gradient(to top, rgb(22, 82, 39), rgb(237,237,237));
-        height: 20vh;
+
     }
     
     .retrouvez {
@@ -468,7 +467,7 @@
     }
 
     .logo img {
-        width: 200px;
+        width: 50vw;
         color: white;
         text-decoration: none;
         padding-left: 70px;
@@ -620,13 +619,12 @@
         bottom: 0;
         width: 100%;
         background: linear-gradient(to top, rgb(22, 82, 39), rgb(237,237,237));
-        height: 20vh;
     }
     
     .retrouvez {
         display: flex;
         justify-content: end;
-        margin-top: -80px;
+        margin-top: -60px;
         margin-right: 4vw;
         font-size: 20px;
         font-weight: 700;
