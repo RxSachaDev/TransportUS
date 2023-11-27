@@ -256,6 +256,7 @@
         top: 20vh;
         text-align: center;
         padding-right: 70px;
+        padding-left: 70px;
         background-color: rgb(22, 82, 39);
         display: none;
     }
@@ -387,7 +388,9 @@
         padding-top: 20px;
     }
     .footer {
+        margin-top: 80px;
         bottom: 0;
+        height: 100%;
         width: 100%;
         background: linear-gradient(to top, rgb(22, 82, 39), rgb(237,237,237));
 
@@ -397,7 +400,7 @@
         display: flex;
         justify-content: end;
         margin-top: -80px;
-        margin-right: 4vw;
+        margin-right: 5vw;
         font-size: 30px;
         font-weight: 700;
         margin-bottom: 10px;
@@ -417,12 +420,13 @@
         display: flex;
         flex-direction: row;
         justify-content: end;
-        margin-right: 17vw;
+        margin-right: 5vw;
         gap: 10px;
     }
     
     .copyright {
         text-align: center;
+        margin-top: 30px;
     }
 }
 @media (max-width:580px) {
@@ -647,8 +651,8 @@
         display: flex;
         flex-direction: row;
         justify-content: end;
-        margin-right: 17vw;
-        gap: 10px;
+        margin-right: 4vw;
+
     }
     
     .copyright {
