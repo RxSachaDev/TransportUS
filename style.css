@@ -483,8 +483,6 @@
         margin-left: 10%;
         top: 20vh;
         text-align: center;
-        height: 60vh;
-        top: 20vh;
         background-color: rgb(22, 82, 39);
         padding: 20px;
         display: none;
@@ -657,5 +655,233 @@
     .copyright {
         margin-top: 40px;
         text-align: center;
+    }
+}
+@media (min-height:350px) and (max-height:440px) {
+    .header {
+        background-color: rgb(237, 237, 237);
+        height: 17vh;
+    }
+    
+    .navbar-computer {
+        display: none;
+        
+    }
+    .navbar-mobile {
+        position: fixed; 
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 14vh;
+        background: rgb(22, 82, 39) ;
+        display: flex;
+        gap: 100px;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 150px;
+        z-index: 3;
+    }
+    .navbar-mobile input {
+        display: none;
+    }
+    .menu-deroulant i {
+        font-size: 68px;
+        color: white;
+    }
+    .menu-deroulant #close {
+        display: none;
+    }
+    #checknav:checked~.menu-deroulant #close {
+        display: block;
+    }
+    #checknav:checked~.menu-deroulant #open {
+        display: none;
+    }
+
+    .logo img {
+        width: 50vw;
+        height: 12vh;
+        color: white;
+        text-decoration: none;
+        padding-left: 70px;
+        
+    }
+    
+    .nav-links{
+        position: fixed;
+        width: 80%;
+        margin-left: 10%;
+        top: 20vh;
+        text-align: center;
+        padding-right: 70px;
+        padding-left: 70px;
+        background-color: rgb(22, 82, 39);
+        display: none;
+    }
+    .nav-links ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+    }
+    .nav-links li {
+        list-style: none;
+    }
+    .nav-links a {
+        position: relative;
+        color: white;
+        text-decoration: none;
+        font-size: 40px;
+        display: table;
+    }
+    
+    #checknav:checked~.nav-links{
+        display: block;
+       
+    }
+    main {
+        background-color: rgb(237, 237, 237);
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .haut {
+        display: inline-flex;
+        flex-direction: column;
+        background-color: rgb(128, 195, 147);
+        text-align: center;
+        width: 80%;
+        padding: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+    .imagehaut {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .texte0 {
+        font-weight: 700;
+        font-size: 40px;
+    }
+    
+    .texte01 {
+        font-weight: 600;
+        font-size: 34px;
+    }
+    
+    .texte02 {
+        font-size: 30px;
+        margin-top: 35px;
+    }
+    .image0 {
+        margin-top: 40px;
+        width: 80%;
+    }
+    
+    .item {
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        gap: 400px;
+    }
+    .item img {
+        width: 80vw;
+        height: 200px;
+        z-index: 0;
+        margin-left: 15px;
+        
+    }
+    .textes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center ;
+        align-items: center;
+        margin-top: -1460px;
+        padding-bottom: 50px;
+        z-index: 1;
+        gap: 50px;
+    }
+    .texte {
+        box-shadow: 0px 1px 5px 0px #0000008c;
+        background: white;
+        width: 70vw;
+        height: 350px;
+        margin-top: 200px;
+        margin-left: 10px;
+    }
+    
+    .texte li {
+        margin-top: 15px;
+        margin-left: 68px;
+        margin-bottom: 5px;
+        
+    }
+    .textevert {
+        display: block;
+        text-align: center;
+        width: 60vw;
+        padding-top: 10px;
+        padding-left: 50px;
+        color: rgb(22, 82, 39);
+        
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 25px;
+    }
+    .textenoir {
+        padding-left: 50px;
+        padding-right: 5px;
+    }
+    
+    .ul2 {
+        padding-top: 20px;
+    }
+    .footer {
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+        background: linear-gradient(to top, rgb(22, 82, 39), rgb(237,237,237));
+
+    }
+    
+    .retrouvez {
+        display: flex;
+        justify-content: end;
+        margin-top: -80px;
+        margin-right: 5vw;
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    
+    .logo2 {
+        margin-left: 1%;
+    }
+    
+    .logo3 img{
+        width: 40px;
+        text-align: right;
+        
+    }
+    
+    .logo3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        margin-right: 5vw;
+        gap: 10px;
+    }
+    
+    .copyright {
+        text-align: center;
+        margin-top: 30px;
     }
 }
