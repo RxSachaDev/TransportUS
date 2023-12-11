@@ -324,8 +324,6 @@
     .mainC {
         display: flex;
         flex-direction: column;
-        background-color: rgb(237, 237, 237);
-        padding-top: 17vh;
     }
     
     .gaucheC {
@@ -337,40 +335,25 @@
     }
     .itemC {
         background: rgb(128,195,147);
-        padding-left: 30px;
+        margin: 0px;
         padding-top: 30px;
-        padding-right: 30px;
         width: 80vw;
         height: 35vh;
     }
     .itemC img{
         height: 60px;
-        grid-row: 1;
     }
     .texteC {
         font-size: 20px;
-        font-weight: 600;
-        margin-left: 70px;
         margin-top: 10px;
     }
     .petittexteC {
-        text-decoration: none;
-        color: black;
-        grid-row: 2;
-        grid-column: 1/3;
         font-size: 18px;
         line-height: 45px;
     }
-    .item1C a:hover {
-        text-decoration: underline;
-    }
-    .item1C a:visited {
-        text-decoration: none;
-    }
+
     .item3C {
         padding-top: 20px;
-        display: flex;
-        flex-direction: column;
         gap: 10px;
     }
     .reseauC  {
@@ -379,36 +362,28 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        grid-template-columns: 10px 1fr;
     }
     .reseauC  a {
-        text-decoration: none;
-        color: black;
-        margin-top: 8px;
+        margin-left: 0px;
         font-size: 23px;
-    }
-    .reseauC  a:hover {
-        text-decoration: underline;
     }
     
     .droiteC  {
         width: 100%;
         padding-top: 0px;
-        display: flex;
-        flex-direction: column;
         align-items: center;
         justify-content: center;
     }
     .mapC  img {
         width: 100vw;
         padding-bottom: 80px ;
+        padding-right: 0px;
         padding-left: 20px;
     }
     
     form {
         display: flex;
         flex-direction: column;
-        gap: 10px;
         padding-bottom: 50px;
         align-items: center;
         justify-content: center;
@@ -418,31 +393,16 @@
     .formulaireC  p {
         padding-bottom: 30px;
         font-size: 30px;
-        font-weight: 800;
     }
     form input {
-        height: 70px;
-        font-size: 30px;
-        padding-left: 10px;
         width: 90vw;
     }
     
     .messageC  {
-        height: 175px;
-        padding-bottom: 130px;
-        font-size: 30px;
-        padding-left: 10px;
         width: 90vw;
     }
     button {
-        height: 82px;
         width: 90vw;
-        background-color: rgb(22, 82, 39);
-        color: #ffffff;
-        text-align: center;
-        text-decoration: none;
-        font-size: 32px;
-        cursor: pointer;
     }
     .footer {
         bottom: 0;
