@@ -232,7 +232,7 @@ main {
     width: 50%;
     color: white;
     text-align: center;
-    text-shadow: 4px 2px 2px black;
+    text-shadow: 2px 2px 10px #000000;
 
 }
 
@@ -1025,7 +1025,7 @@ button {
         width: 90%;
         color: white;
         text-align: center;
-        text-shadow: 4px 2px 2px black;
+        text-shadow: 2px 2px 10px #000000;
         margin: 5%;
 
     }
@@ -1513,7 +1513,7 @@ button {
     .texte1 {
         width: 90%;
         margin: 5%;
-
+        text-shadow: 2px 2px 10px #000000;
     }
 
     .titre {
@@ -1752,17 +1752,18 @@ button {
     }
 
     .itemC img {
-        height: 60px;
+        height: 50px;
+        padding-right: 10px;
     }
 
     .texteC {
         font-size: 20px;
-        margin-top: 10px;
     }
 
     .petittexteC {
         font-size: 18px;
         line-height: 45px;
+
     }
 
     .item3C {
@@ -1917,7 +1918,7 @@ button {
         top: 20vh;
         text-align: center;
         padding-right: 70px;
-        padding-left: 70px;
+        padding-left: 0px;
         background-color: rgb(22, 82, 39);
         display: none;
     }
@@ -1927,7 +1928,7 @@ button {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 60px;
+        gap: 40px;
     }
 
     .nav-links li {
@@ -1947,61 +1948,17 @@ button {
 
     }
 
-    main {
-        background-color: rgb(237, 237, 237);
-    }
-
-    .containerA {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .hautA {
-        display: inline-flex;
-        flex-direction: column;
-        background-color: rgb(128, 195, 147);
-        text-align: center;
-        width: 80%;
-        padding: 30px;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .imagehautA {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
     .texte0A {
         font-weight: 700;
         font-size: 40px;
     }
 
-    .texte01A {
-        font-weight: 600;
-        font-size: 34px;
-    }
-
-    .texte02A {
-        font-size: 30px;
-        margin-top: 35px;
-    }
-
-    .image0A {
-        margin-top: 40px;
-        width: 80%;
-    }
-
     .itemA {
-        margin-top: 60px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 20px;
+        padding: 0px;
         gap: 400px;
     }
 
@@ -2009,8 +1966,6 @@ button {
         width: 80vw;
         height: 200px;
         z-index: 0;
-        margin-left: 15px;
-
     }
 
     .textesA {
@@ -2019,87 +1974,293 @@ button {
         justify-content: center;
         align-items: center;
         margin-top: -1460px;
+        margin-left: 0px;
         padding-bottom: 50px;
         z-index: 1;
         gap: 50px;
     }
 
     .texteA {
-        box-shadow: 0px 1px 5px 0px #0000008c;
-        background: white;
         width: 70vw;
         height: 350px;
-        margin-top: 200px;
         margin-left: 10px;
-    }
-
-    .texteA li {
-        margin-top: 15px;
-        margin-left: 68px;
-        margin-bottom: 5px;
-
     }
 
     .textevertA {
         display: block;
         text-align: center;
         width: 60vw;
-        padding-top: 10px;
-        padding-left: 50px;
         color: rgb(22, 82, 39);
+    }
 
+    .haut {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .texte1 {
+        width: 90%;
+        margin: 5%;
+        text-shadow: 2px 2px 10px #000000;
+    }
+
+    .icone {
+        display: none;
+    }
+
+    .partie1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+    }
+
+    .gauche {
+        align-items: center;
+    }
+
+    .gauche img {
+        width: 30vw;
+        height: 30vw;
+    }
+
+    .text {
+        width: 30vw;
+        height: 30vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .gauche h3 {
         font-size: 25px;
-        font-weight: 600;
-        margin-bottom: 25px;
+        padding: 0px;
     }
 
-    .textenoirA {
-        padding-left: 50px;
-        padding-right: 5px;
+    .gauche li {
+        margin-left: 40px;
+        font-size: 16px;
     }
 
-    .ul2A {
+    .droite {
+        width: 50vw;
         padding-top: 20px;
     }
 
-    .footer {
-        bottom: 0;
-        height: 100%;
+    .droite a {
+        font-size: 20px;
+    }
+
+    .droite p {
+        font-size: 15px;
+        padding-bottom: 5px;
+    }
+
+    .partie2 {
+        display: flex;
+        background: rgb(237, 237, 237);
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .temp {
+        display: block;
+    }
+
+    .temp img {
         width: 100%;
-        background: linear-gradient(to top, rgb(22, 82, 39), rgb(237, 237, 237));
+        height: 80vw;
+    }
+
+    .itemvert {
+        height: 135px;
+        margin: 0px;
+    }
+
+    .itemvert p {
+        font-size: 30px;
+    }
+
+    .texte2 {
+        height: auto;
+        width: 50vw;
+        margin-right: 0px;
+        margin-top: 50px;
+        padding-top: 20px;
+    }
+
+    .titre2 a {
+        font-size: 20px;
+    }
+
+    .petit2 {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .partie3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .texte3 {
+        height: auto;
+        width: 50vw;
+        padding-bottom: 5px;
+        padding-top: 20px;
+    }
+
+    .petit3 {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .titre3 a {
+        font-size: 20px;
+    }
+
+    .item img {
+        width: 50vw;
+    }
+
+    .partie4 {
+        margin-top: 100px;
+        background: rgb(237, 237, 237);
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+
+    .partie4 .temp img {
+        width: 85%;
+        text-align: center;
+    }
+
+    .texte4 {
+        height: auto;
+        width: 50vw;
+        margin-right: 0px;
+        margin-top: 50px;
+        padding-top: 20px;
+    }
+
+    .titre4 a {
+        font-size: 20px;
+    }
+
+    .petit4 {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .partie5 {
+        height: 150vh;
+        background: url(forme.png) no-repeat;
+        background-size: 80vw;
+        background-position: center;
+        margin-top: 0vh;
 
     }
 
+    table {
+        height: auto;
+        width: 65vw;
+    }
+
+    .tarifs {
+        font-size: 20px;
+    }
+
+    .grostitres th {
+        font-size: 13px;
+    }
+
+    .petittitre {
+        font-size: 13px;
+    }
+
+    .proposition {
+        font-size: 10px;
+    }
+
+    td,
+    th {
+        padding: 15px;
+    }
+
+    .gaucheC {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .itemC {
+        width: 80vw;
+        height: auto;
+    }
+
+    .itemC img {
+        height: 70px;
+    }
+
+    .texteC {
+        font-size: 40px;
+    }
+
+    .petittexteC {
+        font-size: 35px;
+        line-height: 85px;
+    }
+
+    .reseauC {
+        margin-top: 30px;
+        margin-right: 105px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .reseauC a {
+        font-size: 35px;
+    }
+
+    .droiteC {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mapC img {
+        width: 80vw;
+        padding-right: 0px;
+        padding-bottom: 80px;
+        padding-left: 20px;
+    }
+
+    form {
+        padding-bottom: 100px;
+    }
+
+    .footer {
+        height: 40vh;
+    }
+
     .retrouvez {
-        display: flex;
-        justify-content: end;
-        margin-top: -80px;
         margin-right: 5vw;
-        font-size: 30px;
-        font-weight: 700;
-        margin-bottom: 10px;
     }
 
     .logo2 {
         margin-left: 1%;
     }
 
-    .logo3 img {
-        width: 40px;
-        text-align: right;
-
-    }
-
     .logo3 {
-        display: flex;
-        flex-direction: row;
         justify-content: end;
         margin-right: 5vw;
-        gap: 10px;
     }
 
     .copyright {
-        text-align: center;
         margin-top: 30px;
     }
 }
