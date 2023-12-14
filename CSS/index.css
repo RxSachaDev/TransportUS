@@ -82,19 +82,78 @@ main {
     justify-content: center;
 }
 
-.texte0A {
-    font-weight: 700;
-    font-size: 40px;
+h1 {
+    font-weight: 800;
+    font-size: 75px;
 }
 
-.texte01A {
+.texte01A, p {
     font-weight: 600;
-    font-size: 34px;
+    font-size: 50px;
+    margin-top: 40px;
 }
 
 .texte02A {
     font-size: 30px;
     margin-top: 35px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.itemC .texte02A {
+    display: grid;
+    margin-top: 0px;
+    font-weight: 600;
+    margin-left: 70px;
+    text-align: start;
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.text .textesA{
+    flex-direction: column;
+    margin-top: 0px;
+}
+
+.textesA {
+    display: flex;
+    margin-left: 20px;
+    margin-top: -220px;
+    font-size: 17px;
+    padding-bottom: 50px;
+    z-index: 1;
+}
+
+.itemC .textesA {
+    display: grid;
+    margin-top: 0px;
+    grid-row: 2;
+    grid-column: 1/3;
+}
+.textevertA {
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.texteA .textevertA {
+    width: 24vw;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 50px;
+    color: rgb(22, 82, 39);
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.itemC .textevertA {
+    display: grid;
+    grid-row: 2;
+    grid-column: 1/3;
+    font-weight: 400;
+}
+
+.textevertA:visited {
+    color: #000000;
 }
 
 .image0A {
@@ -116,13 +175,7 @@ main {
     margin-left: 15px;
 }
 
-.textesA {
-    display: flex;
-    margin-top: -220px;
-    margin-left: 20px;
-    padding-bottom: 50px;
-    z-index: 1;
-}
+
 
 .texteA {
     box-shadow: 0px 1px 5px 0px #0000008c;
@@ -154,20 +207,12 @@ main {
 
 }
 
-.textevertA {
-    width: 24vw;
-    padding-top: 10px;
-    padding-left: 50px;
-    color: rgb(22, 82, 39);
-    text-align: center;
-    font-size: 25px;
-    font-weight: 600;
-    margin-bottom: 25px;
-}
+
 
 .textenoirA {
     padding-left: 50px;
     padding-right: 5px;
+    font-size: 20px;
 }
 
 .ul2A {
@@ -213,6 +258,8 @@ main {
 .copyright {
     text-align: center;
     padding-bottom: 5px;
+    font-size: 20px;
+    font-weight: 400;
 }
 
 .temp {
@@ -337,7 +384,7 @@ main {
 
 .partie2 {
     margin-top: 100px;
-    background: url(itemvelov.png) no-repeat;
+    background: url(itemvelov.webp) no-repeat;
     background-size: 100vh;
     background-position: 100px;
     display: flex;
@@ -349,8 +396,9 @@ main {
 .itemvert {
     background-color: rgb(22, 82, 39);
     color: white;
-    height: 20vh;
+    height: auto;
     padding: 20px;
+    padding-top: 0px;
     margin-left: 130px;
     margin-top: 300px;
     margin-right: 90px;
@@ -438,7 +486,7 @@ main {
 
 .partie4 {
     margin-top: 50px;
-    background: url(itembus.png) no-repeat;
+    background: url(itembus.webp) no-repeat;
     background-size: 120vh;
     background-position-x: 400px;
     background-position-y: 0;
@@ -475,7 +523,7 @@ main {
 .partie5 {
     margin-top: 50px;
     height: 140vh;
-    background: url(forme.png) no-repeat;
+    background: url(forme.webp) no-repeat;
     background-size: 180vh;
     background-position: center;
     display: flex;
@@ -789,7 +837,7 @@ button {
     .partie5 {
         margin-top: 20px;
         height: 120vh;
-        background: url(forme.png) no-repeat;
+        background: url(forme.webp) no-repeat;
         background-size: 150vh;
         background-position: center;
         display: flex;
@@ -924,7 +972,9 @@ button {
     main {
         background-color: rgb(237, 237, 237);
     }
-
+    .texteA .textevertA {
+        width: 80%;
+    }
     .itemA {
         margin-top: 60px;
         display: flex;
@@ -1239,7 +1289,7 @@ button {
 
     .partie5 {
         height: 50vh;
-        background: url(forme.png) no-repeat;
+        background: url(forme.webp) no-repeat;
         background-size: 88vw;
         background-position: center;
         display: flex;
@@ -1697,7 +1747,7 @@ button {
 
     .partie5 {
         height: 40vh;
-        background: url(forme.png) no-repeat;
+        background: url(forme.webp) no-repeat;
         background-size: 45vh;
         background-position: center;
         align-items: center;
@@ -1948,7 +1998,7 @@ button {
 
     }
 
-    .texte0A {
+    .h1 {
         font-weight: 700;
         font-size: 40px;
     }
@@ -2158,7 +2208,7 @@ button {
 
     .partie5 {
         height: 150vh;
-        background: url(forme.png) no-repeat;
+        background: url(forme.webp) no-repeat;
         background-size: 80vw;
         background-position: center;
         margin-top: 0vh;
