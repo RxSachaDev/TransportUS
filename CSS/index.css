@@ -94,7 +94,7 @@ h1 {
 }
 
 .texte02A {
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 35px;
     font-weight: 400;
     text-align: center;
@@ -124,6 +124,16 @@ h1 {
     z-index: 1;
 }
 
+h4 {
+    text-align: center;
+    font-size: 45px;
+    text-decoration: underline;
+}
+
+h5 {
+    margin-left: 5vw;
+    font-size: 30px;
+}
 .itemC .textesA {
     display: grid;
     margin-top: 0px;
@@ -375,11 +385,8 @@ h1 {
 }
 
 .droite p {
-    text-align: left;
     margin-top: 30px;
-    margin-left: 40px;
     margin-right: 20px;
-    font-size: 26px;
 }
 
 .partie2 {
@@ -433,6 +440,7 @@ h1 {
     font-size: 35px;
     color: black;
 }
+
 
 .petit2 {
     font-size: 26px;
@@ -688,17 +696,21 @@ button {
     cursor: pointer;
 }
 
-
-@media (max-width:1400px) and (min-width : 1001px) {
+.left{
+    text-align: left;
+    padding-left: 2vw;
+    padding-right: 5px;
+}
+@media (max-width:1200px) and (min-width : 1001px) {
+   
+    
+    .texte1 {
+        width: 80%;
+        margin-left: 10%;
+    }
 
     .icone {
-        width: 50%;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        margin-top: 20px;
+       display: none;
     }
 
 
@@ -737,7 +749,7 @@ button {
     .gauche li {
         margin-left: 50px;
         padding-bottom: 30px;
-        font-size: 30px;
+        
     }
 
     .droite {
@@ -1124,7 +1136,7 @@ button {
     .gauche li {
         margin-left: 40px;
         padding-bottom: 30px;
-        font-size: 16px;
+        
     }
 
     .droite {
@@ -1503,7 +1515,32 @@ button {
         display: block;
     }
 
+    h1 {
+        font-size: 30px;
+    }
+    h4 {
+        font-size: 17px;
+    }
 
+    h5 {
+        margin-left: 14vw;
+        font-size: 22px;
+    }
+    .texte01A {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .partie4 a {
+        font-size: 25px;
+    }
+    .texte02A{
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    .textevertA {
+        font-size: 20px;
+    }
     .itemA {
         margin-top: 60px;
         display: flex;
@@ -1525,10 +1562,14 @@ button {
         justify-content: center;
         align-items: center;
         margin-top: -1410px;
+        font-size: 10px;
         margin-left: 0px;
         gap: 150px;
     }
-
+    .text li {
+        justify-content: start;
+        align-items: start;
+    }
     .texteA {
         width: 70vw;
         height: 300px;
@@ -1536,33 +1577,38 @@ button {
     }
 
     .texteA li {
-        margin-top: 15px;
-        margin-left: 68px;
+        margin-top: 10px;
+        margin-left: 48px;
         margin-bottom: 5px;
         font-size: 11px;
 
     }
 
-    .textevertA {
+    .texteA .textevertA {
         display: block;
         text-align: center;
-        width: 60vw;
-        padding-left: 50px;
-        font-size: 20px;
+        width: 57vw;
+        padding-left: 0px;
+        margin-top: 5px;
+        margin-left: 25px;
+
     }
 
     .textenoirA {
+        margin-top: 10px;
         font-size: 12px;
+        padding-left: 30px;
     }
 
     .haut {
         display: flex;
+        background-size:120% 50vh;
         flex-direction: column;
     }
 
     .texte1 {
-        width: 90%;
-        margin: 5%;
+        width: 80%;
+        margin: 10%;
         text-shadow: 2px 2px 10px #000000;
     }
 
@@ -1604,17 +1650,16 @@ button {
     .gauche h3 {
         font-size: 15px;
         padding-bottom: 15px;
-        padding-top: 20px;
+        padding-top: 10px;
     }
 
     .gauche li {
         margin-left: 27px;
         padding-bottom: 5%;
-        font-size: 8px;
     }
 
     .droite {
-        width: 50vw;
+        width: 70vw;
         padding-top: 10px;
     }
 
@@ -1624,7 +1669,6 @@ button {
 
     .droite p {
         margin-top: 10px;
-        font-size: 9px;
         padding-bottom: 5px;
     }
 
@@ -1665,7 +1709,7 @@ button {
     }
 
     .texte2 {
-        width: 50vw;
+        width: 70vw;
         height: auto;
         margin-top: 20px;
         padding-top: 10px;
@@ -1690,7 +1734,7 @@ button {
     }
 
     .texte3 {
-        width: 50vw;
+        width: 70vw;
         height: auto;
         padding-bottom: 5px;
         font-size: 26px;
@@ -1728,7 +1772,7 @@ button {
     }
 
     .texte4 {
-        width: 50vw;
+        width: 70vw;
         height: auto;
         margin-top: 50px;
         margin-right: 0px;
@@ -1901,6 +1945,7 @@ button {
 
     .copyright {
         margin-top: 40px;
+        font-size: 15px;
     }
 
 }
@@ -2090,7 +2135,6 @@ button {
 
     .gauche li {
         margin-left: 40px;
-        font-size: 16px;
     }
 
     .droite {
